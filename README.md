@@ -6,7 +6,7 @@ This project is a simple real-time chat application with a backend WebSocket ser
 
 - **backend/**: Node.js backend using TypeScript and the `ws` WebSocket library.
   - `src/index.ts`: WebSocket server that manages user connections, rooms, and message broadcasting.
-- **Frountend/chat/**: React frontend using TypeScript, Vite, and Tailwind CSS.
+- **Frontend/chat/**: React frontend using TypeScript, Vite, and Tailwind CSS.
   - `src/App.tsx`: Main chat UI component with WebSocket client integration.
   - `src/main.tsx`: React app entry point.
   - Tailwind CSS for styling and responsive UI.
@@ -56,7 +56,7 @@ This project is a simple real-time chat application with a backend WebSocket ser
 
 1. Navigate to the frontend directory:
    ```bash
-   cd Frountend/chat
+   cd Frontend/chat
    ```
 
 2. Install dependencies:
@@ -93,4 +93,3 @@ This project is a simple real-time chat application with a backend WebSocket ser
 ## License
 
 This project is open source and available under the MIT License.
-"# Chat-App" 
